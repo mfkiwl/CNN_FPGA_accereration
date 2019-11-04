@@ -5,6 +5,7 @@ CNN convolution 을 FPGA ( xilinx zinq 7000 ) 의 arm processor를 이용해 진
 verilog HDL를 이용해 제어하였으며 AHB AMBA 버스 시스템으로 통신하였다.
 
 1. Object project
+
 • Convolutional Neural Network (CNN).
 - Convolutional Neural Network (After is CNN) is one of most popular Deep
 Neural network. CNN has advantage in classification images.
@@ -13,6 +14,7 @@ Neural network. CNN has advantage in classification images.
 time.
 
 2. Theory
+
 • There is 3 layer in the CNN.
 • The first layer is convolution layer. This layer detect the feature image. 2D Convolution is used to extract feature.
 • The second layer is pooling layer. This layer regulates over-fitting and decrease calculation
